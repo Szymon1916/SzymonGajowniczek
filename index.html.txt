@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Analityka Danych</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portfolio Analityka Danych</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">O mnie</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Cześć, jestem [Twoje Imię]</h2>
+            <p>Analityk danych z pasją do odkrywania historii ukrytych w liczbach.</p>
+            <a href="#portfolio" class="btn">Zobacz moje projekty</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>O mnie</h2>
+            <div class="about-content">
+                <p>
+                    Jestem analitykiem danych z [X lat] doświadczenia w analizie i wizualizacji danych. Specjalizuję się w narzędziach takich jak Python, SQL, Tableau i Power BI. Moje projekty obejmują analizę biznesową, predykcje i tworzenie interaktywnych dashboardów.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Projekt 1: Analiza sprzedaży</h3>
+                    <p>Wizualizacja danych sprzedażowych za pomocą Tableau.</p>
+                    <a href="#" class="btn">Zobacz więcej</a>
+                </div>
+                <div class="project">
+                    <h3>Projekt 2: Predykcja cen nieruchomości</h3>
+                    <p>Model regresji liniowej w Pythonie.</p>
+                    <a href="#" class="btn">Zobacz więcej</a>
+                </div>
+                <div class="project">
+                    <h3>Projekt 3: Dashboard biznesowy</h3>
+                    <p>Interaktywny dashboard w Power BI.</p>
+                    <a href="#" class="btn">Zobacz więcej</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <form action="#" method="post">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Wyślij</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 [Twoje Imię]. Wszystkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+</body>
+</html>
